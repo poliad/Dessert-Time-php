@@ -1,0 +1,67 @@
+*{
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+#header a:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.active{
+    background-color: rgba(0,0,0,0.1);
+}
+#header {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 997;
+}
+.banner{
+    height: 1000px;
+    background: url("img/banner.jpg") no-repeat center;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 768px){
+    .banner{
+        height: 700px;
+        background: url("img/banner.jpg") no-repeat center;
+        background-size: cover ;
+    }
+}
+
+.banner-text{
+    padding: 270px;
+    color: aliceblue;
+    font-size: 60px;
+    text-align: center;
+}
+.meniu{
+    background: url(img/dark_wood.png);
+}
+
+.bg{
+    color: blanchedalmond;
+    padding-top: 50px;
+    
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+}
+
+footer{
+    color: blanchedalmond;
+    background-color: black;
+}
+
+footer a{
+    color: blanchedalmond;
+}
+
+.footer-item{
+    padding: 50px 10px 10px 10px;
+}
